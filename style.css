@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+
+div {
+    background-color: rgb(201, 255, 243);
+    /* border: 1px solid #f0f; */
+}
+
+.newbutton {
+    background-color: #f0f;
+}
+
+
+.btn-danger {
+    background-color: #f0f;
+    padding: 30px;
+}

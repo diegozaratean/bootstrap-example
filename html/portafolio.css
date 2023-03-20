@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #272829;
+}
+
+ul{
+    list-style: none;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 5% auto;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.about-text{
+    flex-grow: 2;
+    padding-left: 20px;
+}
+.about-img{
+    flex-grow: 1;
+}
+
+.about-img img{
+    max-width: 320px;
+}
+
+.about h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    margin: 0px;
+}
+
+.about ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.about ul strong {
+    margin-right: 10px;
+}
+
+.about ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+    line-height: 0;
+}
+
+.about-list{
+    display: flex;    
+}
+
+/* Skills styles */
+.section-bg {
+    background: #f5f8fd;
+}
+
+.skills {
+    padding: 20px 0;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper {
+    width: 500px;
+}
+
+.progress{
+    margin: 20px 0px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 0px;
+    height: 15px;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.progress-bar-fill {
+    display: block;
+    height: 15px;
+    background-color: #659cef;
+    border-radius: 25px;    
+    transition: width 500ms ease-in-out;
+}
+
+/* Facts styles */
+.statistics{
+    display:flex;
+    justify-content: space-around;
+    margin: 70px 0px;
+}
+.facts .count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+    margin-top: 20px;
+}
+.facts .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #2f9ddd;
+    margin-left: 60px;
+}
+
+.facts .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #122f57;
+}

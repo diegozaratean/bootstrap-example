@@ -1,0 +1,9 @@
+
+body{
+    background-color: aqua;
+}
+
+.elemento{
+    background-color: red;    
+    margin: 50px 0px 200px 400px;
+}
